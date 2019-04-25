@@ -1,0 +1,16 @@
+https://becominghuman.ai/image-data-pre-processing-for-neural-networks-498289068258
+
+https://developers.google.com/machine-learning/practica/image-classification/convolutional-neural-networks
+
+https://www.analyticsvidhya.com/blog/2019/01/build-image-classification-model-10-minutes/
+
+https://towardsdatascience.com/wtf-is-image-classification-8e78a8235acb
+
+https://www.datascience.com/blog/imbalanced-data   
+
+https://towardsdatascience.com/methods-for-dealing-with-imbalanced-data-5b761be45a18 
+
+https://medium.com/james-blogs/handling-imbalanced-data-in-classification-problems-7de598c1059f 
+
+https://github.com/lse-st449/lectures
+

@@ -1,0 +1,12 @@
+7th Apr. 2019
+1. image processing in R materials:
+- magick: https://cran.r-project.org/web/packages/magick/vignettes/intro.html
+- imager: https://dahtah.github.io/imager/imager.html
+
+Next steps:
+1. read through some common materials
+2. preprocessing steps
+3. sampling techniques (stratified sampling, downsampling)
+4. modelling techniques (CNN)
+
+

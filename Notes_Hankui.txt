@@ -1,3 +1,0 @@
-7th Apr. 2019
-1. image processing in R materials:
-https://cran.r-project.org/web/packages/magick/vignettes/intro.html

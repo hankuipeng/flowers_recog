@@ -1,0 +1,7 @@
+Next steps:
+
+- Read tutorial info
+- Complete pre-processing on data 
+- Start modelling with CNN?
+- Deep Learning textbook - see what sections are relevant 
+
