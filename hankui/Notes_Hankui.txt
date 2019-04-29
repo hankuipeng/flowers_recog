@@ -10,3 +10,11 @@ Next steps:
 4. modelling techniques (CNN)
 
 
+29th Apr. 2019
+1. image processing in Python:
+	- https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_gui/py_image_display/py_image_display.html
+
+
+Questions:
+1. how to run a specific version of Python in Spyder?
+2. how come numpy is available through anaconda spyder but not spyder?
