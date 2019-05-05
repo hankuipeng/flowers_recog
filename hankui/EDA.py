@@ -5,7 +5,7 @@ Spyder Editor
 This is a temporary script file.
 """
 
-#%% read in images, approach 1
+#%% read in images in 'sunflower' folder, approach 1
 from PIL import Image
 jpgfile = Image.open("6953297_8576bf4ea3.jpg") 
 print(jpgfile.bits, jpgfile.size, jpgfile.format)
