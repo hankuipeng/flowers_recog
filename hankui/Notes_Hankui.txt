@@ -18,3 +18,10 @@ Next steps:
 Questions:
 1. how to run a specific version of Python in Spyder?
 2. how come numpy is available through anaconda spyder but not spyder?
+
+
+31st May 2019
+1. https://towardsdatascience.com/wtf-is-image-classification-8e78a8235acb
+
+2. Introduction to CNN slides: https://web.stanford.edu/class/cs231a/lectures/intro_cnn.pdf
+
