@@ -48,3 +48,71 @@ filters = np.array([filter_1, filter_2, filter_3, filter_4])
 print('Filter 1: \n', filter_1)
 
 
+#%% save a couple objects into a pickle file 
+obj = [filter_1, filter_2]
+import pickle
+
+f = open('store.pckl', 'wb')
+pickle.dump(obj, f)
+f.close()
+
+
+#%% read in the saved objects from the pickle file
+import pickle
+f = open('store.pckl', 'rb')
+obj = pickle.load(f)
+f.close()
+
+
+#%% do the same thing as above, but now use shelve
+import shelve
+
+#T='Hiya'
+#val=[1,2,3]
+
+filename='shelve.out'
+my_shelf = shelve.open(filename,'n') # 'n' for new
+
+
+for key in dir():
+    try:
+        my_shelf[key] = globals()[key]
+    except TypeError:
+        #
+        # __builtins__, my_shelf, and imported modules can not be shelved.
+        #
+        print('ERROR shelving: {0}'.format(key))
+my_shelf.close()
+
+
+#%%
+import shelve
+filename='shelve.dat'
+
+my_shelf = shelve.open(filename)
+for key in my_shelf:
+    my_shelf[key] = globals()[key]
+my_shelf.close()
+
+
+#%%
+import shelve 
+r = shelve.open("shelve.dat") 
+for key in r:
+   print(r[key]) 
+r.close()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
